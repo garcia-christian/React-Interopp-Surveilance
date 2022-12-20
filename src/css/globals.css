@@ -1,0 +1,77 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.places-container {
+  position: absolute;
+  top: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 10;
+  width: 300px;
+}
+
+.map-container {
+  width: 100%;
+  height: 100vh;
+}
+
+.combobox-input {
+  width: 100%;
+  padding: 0.5rem;
+}
+
+.gm-style .gm-style-iw-c {
+
+  position: absolute;
+  box-sizing: border-box;
+  overflow: hidden;
+  top: 0;
+  left: 0;
+  transform: translate(-50%, -100%);
+  background-color: transparent;
+  border-radius: 8px;
+  box-shadow: 0 2px 7px 1px rgba(0, 0, 0, 0.3);
+}
+
+.l1 {
+  color: #db2534;
+  opacity: 1;
+}
+
+.l2 {
+  color: #db2534;
+  opacity: .80;
+}
+
+.l3 {
+  color: #db2534;
+  opacity: 0.60;
+}
+
+.l4 {
+  color: #db2534;
+  opacity: 0.40;
+}
+
+.l5 {
+  color: #db2534;
+  opacity: 0.30;
+}
+.l0 {
+  color: #db2534;
+  opacity: 0.1;
+}
