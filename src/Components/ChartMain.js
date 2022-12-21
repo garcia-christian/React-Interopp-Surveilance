@@ -131,7 +131,7 @@ const ChartMain = () => {
         min: 0,
         max: dataa.map((value, index) => (Math.max(value.count)+100)),
         ticks: {
-          stepSize: 1000,
+          stepSize: 100,
           callback: (value) => value + ""
         },
         grid: {
