@@ -229,7 +229,7 @@ function Map() {
                     opp = 0.10
                 } else if (compare >= 0.05 && compare <= 0.09) {
                     opp = 0.40
-                } else if (compare >= 0.1 && compare <= 0.2) {
+                } else if (compare >= 0.9 && compare <= 0.2) {
                     opp = 0.60
                 } else if (compare >= 0.3 && compare <= 0.4) {
                     opp = 0.70
